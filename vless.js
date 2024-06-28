@@ -20,8 +20,8 @@ export default {
 	 */
 	async fetch(request, env, ctx) {
 		try {
-			userID = env.uuid || userID;
-			proxyIP = env.proxyip || proxyIP;
+			userID = env.UUID || userID;
+			proxyIP = env.PROXYIP || proxyIP;
 			const upgradeHeader = request.headers.get('Upgrade');
 			if (!upgradeHeader || upgradeHeader !== 'websocket') {
 				const url = new URL(request.url);
