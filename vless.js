@@ -647,7 +647,7 @@ async function getVLESSConfig(userID, hostName, proxyIP) {
 
 const output =
 `<div style="text-align: center;"><h2>VLESS CLOUDFLARE FREE</h2>
-<h3>Created by : <font color="#DC143C">BitzBlack</font></h3>
+<h3>Created by : <font color="#DC143C">Bodong</font></h3>
 =================================
 VLESS ACCOUNT INFORMATION
 =================================
